@@ -1,0 +1,12 @@
+out/
+*.vsix
+node_modules/
+.vscode/
+src/test/
+.git
+.DS_Store
+Thumbs.db
+*.log
+.env
+.vscode-test.mjs
+.vscodeignore

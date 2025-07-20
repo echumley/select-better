@@ -1,0 +1,60 @@
+{
+  "name": "select-better",
+  "displayName": "select-better",
+  "description": "Quickly select smarter text blocks (URLs, emails, variables) in VSCode.",
+  "publisher": "echumley",
+  "version": "0.1.0",
+  "engines": {
+    "vscode": "^1.102.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/echumley/select-better",
+    "bugs": {
+      "url": "https://github.com/echumley/select-better/issues"
+    },
+    "homepage": "https://github.com/echumley/select-better#readme"
+  },
+  "categories": [
+    "Other",
+    "Programming Languages",
+    "Linters"
+  ],
+  "activationEvents": [],
+  "main": "./out/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "select-better.selectExtendedWord",
+        "title": "Select Extended Word"
+      }
+    ],
+    "keybindings": [
+      {
+        "command": "select-better.selectExtendedWord",
+        "key": "ctrl+alt+shift+u",
+        "when": "editorTextFocus"
+      }
+    ]
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "pretest": "npm run compile && npm run lint",
+    "lint": "eslint src",
+    "test": "vscode-test"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.102.0",
+    "@types/mocha": "^10.0.10",
+    "@types/node": "20.x",
+    "@typescript-eslint/eslint-plugin": "^8.31.1",
+    "@typescript-eslint/parser": "^8.31.1",
+    "eslint": "^9.25.1",
+    "typescript": "^5.8.3",
+    "@vscode/test-cli": "^0.0.11",
+    "@vscode/test-electron": "^2.5.2"
+  },
+  "license": "0BSD"
+}
