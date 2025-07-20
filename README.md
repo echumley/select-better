@@ -1,6 +1,10 @@
 # 🧠 Select Better
 
-Select smarter, not harder.
+[![VS Code Marketplace Version](https://img.shields.io/visual-studio-marketplace/v/echumley.select-better?color=blue&label=Current%20Version)](https://marketplace.visualstudio.com/items?itemName=echumley.select-better)
+&nbsp;
+[![Get Extension](https://img.shields.io/badge/Get%20Extension-Click%20Here-blue?logo=visualstudiocode&logoColor=white)](https://marketplace.visualstudio.com/items?itemName=echumley.select-better)
+
+*Select smarter, not harder.*
 
 **Select Better** is a lightweight Visual Studio Code extension that allows you to quickly select intelligent text ranges under your cursor — including:
 
