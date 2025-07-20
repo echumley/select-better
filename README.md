@@ -34,7 +34,7 @@ You can change the keyboard shortcut by editing your keybindings in VSCode:
 
 ```json
 {
-  "key": "cmd+option+ctrl+u",
+  "key": "cmd+option+shift+u",
   "command": "select-better.selectedExtendedWord",
   "when": "editorTextFocus"
 }
