@@ -40,7 +40,7 @@ export function activate(context: vscode.ExtensionContext) {
     // Known full-document patterns (URLs, localhost, emails, IPs)
     const patterns = [
       { regex: /https?:\/\/[^\s)"'<>]+/g, clean: true },
-      { regex: /mailto:[^\s)"'<>]+/g, clean: true },
+      { regex: /mailto:[^\s)"'<>]*[A-Za-z0-9]+/g, clean: true },
       { regex: /\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,6}\b/g, clean: false },
       { regex: /http:\/\/localhost:\d+/g, clean: false },
       { regex: /http:\/\/(?:\d{1,3}\.){3}\d{1,3}(?::\d+)?/g, clean: false }
