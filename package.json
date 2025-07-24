@@ -3,7 +3,7 @@
   "displayName": "select-better",
   "description": "Quickly select smarter text blocks (URLs, emails, variables) in VSCode.",
   "publisher": "echumley",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "engines": {
     "vscode": "^1.102.0"
   },
